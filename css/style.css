@@ -1,0 +1,88 @@
+/* Global styles for the entire page */
+body {
+    font-family: sans-serif; /* Set the font family for the entire page to sans-serif */
+    background-color: #f5f5f5; /* Set the background color of the body */
+    font-size: 32px; /* Set the default font size */
+}
+
+/* Styles for paragraphs */
+p {
+    text-align: center; /* Center-align text */
+    font-weight: bold; /* Set font weight to bold */
+    font-style: italic; /* Set font style to italic */
+    text-decoration: underline; /* Add underline text decoration */
+}
+
+/* Styles for the main container */
+.container {
+    max-width: 800px; /* Set the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding around the container */
+    background-color: #fff; /* Set background color of the container */
+    border-radius: 8px; /* Add border radius to the container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow to the container */
+}
+
+/* Styles for labels */
+label {
+    font-weight: bold; /* Set font weight to bold */
+    color: black; /* Set text color to black */
+}
+
+/* Styles for number input fields */
+input[type="number"] {
+    padding: 10px; /* Add padding to the input fields */
+    width: 100%; /* Set the width of the input fields to 100% */
+    margin-bottom: 15px; /* Add margin at the bottom of the input fields */
+    border: 1px solid #ccc; /* Add border to the input fields */
+    border-radius: 4px; /* Add border radius to the input fields */
+    font-size: 26px; /* Set font size for the input fields */
+    margin-top: 20px; /* Add margin at the top of the input fields */
+}
+
+/* Styles for buttons */
+button {
+    padding: 15px 10px; /* Add padding to the buttons */
+    cursor: pointer; /* Set cursor to pointer */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius to the buttons */
+    color: #fff; /* Set text color to white */
+    margin: 10px; /* Add margin around the buttons */
+    margin-top: 20px; /* Add margin at the top of the buttons */
+    font-size: large; /* Set font size for the buttons */
+}
+
+/* Styles for the "Change custom color" button */
+.custColor {
+    background-color: grey; /* Set background color of the button to grey */
+}
+
+/* Styles for the "Change random color" button */
+.randColor {
+    background-color: black; /* Set background color of the button to black */
+}
+
+/* Styles for select elements */
+select {
+    padding: 10px; /* Add padding to select elements */
+    width: 100%; /* Set the width of select elements to 100% */
+    margin-bottom: 20px; /* Add margin at the bottom of select elements */
+    border: 1px solid #ccc; /* Add border to select elements */
+    border-radius: 10px; /* Add border radius to select elements */
+}
+
+/* Styles for images */
+img {
+    max-width: 100%; /* Set the maximum width of images to 100% */
+    height: auto; /* Maintain aspect ratio of images */
+    display: block; /* Display images as block elements */
+    margin: 0 auto; /* Center-align images horizontally */
+    margin-top: 20px; /* Add margin at the top of images */
+    border-radius: 4px; /* Add border radius to images */
+}
+
+/* Styles for the image select element */
+#imageSelect {
+    font-size: 26px; /* Set font size for the options in the select element */
+    margin-top: 20px; /* Add margin at the top of the select element */
+}
